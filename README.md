@@ -1,7 +1,7 @@
 # tapelen
 Simple calculator for recording-time on tape. Sample output and syntax:
 Usage: tapelen [lenth] [unit]
-Example:$ ./tapelen 275 m
+Example:$ ./tapelen 275 m 
 
     76.2cm ~ 30"    | 38.1cm ~ 15"    | 19.05cm ~ 7-1/2"
     9.52cm ~ 3-3/4" | 4.76cm ~ 1-7/8" | 2.381cm ~ 15/16"
