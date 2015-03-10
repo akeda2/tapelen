@@ -6,9 +6,6 @@
 #$1 is length of tape.
 #$2 is unit "m*" or "f*".
 
-#define trunc(x){auto os;os=scale;for(scale=0;scale<=os;scale++)if(x==x/1)
-#{x/=1;scale=os;return x}}
-
 #Speed-constant: 19,05cm/s is normal high-speed.
 sp=19.05
 #Higher speeds
