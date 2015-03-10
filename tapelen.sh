@@ -27,7 +27,7 @@ function speedsChart () {
  	printf "\n    %bcm ~ 30\"    | %bcm ~ 15\"    | %bcm ~ 7-1/2\"\n    %bcm ~ 3-3/4\" | %bcm ~ 1-7/8\" | %bcm ~ 15/16\"\n" $h4sp $h2sp $sp $Sp2 $Sp4 $Sp8
  }
 function calcLen () {
-	printf "\nRecording-time for 6.35mm / 1/2\" tape, length: %b meters, or %b feet:\n\n hh:mm:ss  @ speed  x * number of turns. Ex: stereo 4-track is 2x.\n\n" $1 $(roundup $(m2ft $1))
+	printf "\nRecording-time for %b m, or %b ft (6.35mm or 1/2\"-wide) audiotape:\n\n hh:mm:ss  @ speed  x * number of turns. Ex: stereo 4-track is 2x.\n\n" $1 $(roundup $(m2ft $1))
 	myLen=$(bc <<< "scale=0;$1/$spMeter")
 	printf " %b  @ %bcm/s  x1\n" 														$(convertsecs $myLen/4) $h4sp
 	printf " %b  @ %bcm/s  x1\n" 														$(convertsecs $myLen/2) $h2sp
