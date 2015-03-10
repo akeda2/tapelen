@@ -1,10 +1,11 @@
 # tapelen
-Simple (yes, really) calculator for total recording-time on tape.
+Simple (yes, really) written-in-bash calculator for total recording-time on tape. 
 
 ```
 Place a symlink somewhere useful, ex: ln -s ~/dev/tapelen/tapelen.sh /usr/local/bin/tapelen
 Usage: tapelen [lenth] [unit]
 Example:$ tapelen 275 m 
+Or use feet:$ tapelen 900 ft
 
     76.2cm ~ 30"    | 38.1cm ~ 15"    | 19.05cm ~ 7-1/2"
     9.52cm ~ 3-3/4" | 4.76cm ~ 1-7/8" | 2.381cm ~ 15/16"
