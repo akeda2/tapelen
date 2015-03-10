@@ -12,6 +12,7 @@ Example:$ tapelen 275 m
 Recording-time for 6.35mm / 1/2" tape, length: 275 meters, or 899 feet:
 
 hh:mm:ss  @ speed  x * number of turns. Ex: stereo 4-track is 2x.
+
 00:06:00  @ 76.2cm/s  x1
 00:12:01  @ 38.1cm/s  x1
 00:24:03  @ 19.05cm/s x1
