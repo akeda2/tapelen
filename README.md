@@ -10,7 +10,7 @@ Or use feet:$ tapelen 900 ft
     76.2cm ~ 30"    | 38.1cm ~ 15"    | 19.05cm ~ 7-1/2"
     9.52cm ~ 3-3/4" | 4.76cm ~ 1-7/8" | 2.381cm ~ 15/16"
 
-Recording-time for 6.35mm / 1/2" tape, length: 275 meters, or 899 feet:
+Recording-time for 275 m, or 899 ft (6.35mm or 1/2"-wide) audiotape:
 
 hh:mm:ss  @ speed  x * number of turns. Ex: stereo 4-track is 2x.
 
