@@ -1,5 +1,6 @@
 #!/bin/bash
-#How many minutes recording-time using 19/9,5/4,75/2,375cm/s
+#How many minutes recording-time using various tape-speeds.
+#By akeda2
 
 #Operands: [tape-length] [feet/meters]
 #Syntax: tapelen(.sh) 300 meters (or feet)
