@@ -30,14 +30,14 @@ function speedsChart () {
 function calcLen () {
 	printf "\nRecording-time for %b m, or %b ft (6.35mm or 1/2\"-wide) audiotape:\n\n hh:mm:ss  @ speed  x * number of turns. Ex: stereo 4-track is 2x.\n\n" $1 $(roundup $(m2ft $1))
 	myLen=$(bc <<< "scale=0;$1/$spMeter")
-	printf " %b  @ %bcm/s  x1\n" 						$(convertsecs $myLen/4) $h4sp
-	printf " %b  @ %bcm/s  x1\n" 						$(convertsecs $myLen/2) $h2sp
-	printf " %b  @ %bcm/s x1\n" 						$(convertsecs $myLen) $sp
-	printf " %b  @ %bcm/s x2 || @ %bcm/s x1\n" 							$(convertsecs $myLen*2) $sp $Sp2
-	printf " %b  @ %bcm/s x4 || @ %bcm/s x2 || @ %bcm/s x1\n" 							$(convertsecs $myLen*4) $sp $Sp2 $Sp4
-	printf " %b                    @ %bcm/s x4 || @ %bcm/s x2 || @ %bcm/s x1\n" 		$(convertsecs $myLen*8) $Sp2 $Sp4 $Sp8
-	printf " %b                                     @ %bcm/s x4 || @ %bcm/s x2\n" 		$(convertsecs $myLen*16) $Sp4 $Sp8
-	printf " %b                                                   || @ %bcm/s x4\n" 	$(convertsecs $myLen*32) $Sp8
+	printf " %b  @ %bcm/s  x1\n" 							$(convertsecs $myLen/4) $h4sp
+	printf " %b  @ %bcm/s  x1\n" 							$(convertsecs $myLen/2) $h2sp
+	printf " %b  @ %bcm/s x1\n" 							$(convertsecs $myLen) $sp
+	printf " %b  @ %bcm/s x2 || @ %bcm/s x1\n" 					$(convertsecs $myLen*2) $sp $Sp2
+	printf " %b  @ %bcm/s x4 || @ %bcm/s x2 || @ %bcm/s x1\n" 			$(convertsecs $myLen*4) $sp $Sp2 $Sp4
+	printf " %b                    @ %bcm/s x4 || @ %bcm/s x2 || @ %bcm/s x1\n" 	$(convertsecs $myLen*8) $Sp2 $Sp4 $Sp8
+	printf " %b                                     @ %bcm/s x4 || @ %bcm/s x2\n" 	$(convertsecs $myLen*16) $Sp4 $Sp8
+	printf " %b                                                   || @ %bcm/s x4\n" $(convertsecs $myLen*32) $Sp8
 	printf "\n"
 }
 
