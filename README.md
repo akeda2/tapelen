@@ -1,19 +1,23 @@
 # tapelen
-Simple (yes, really) written-in-bash calculator for total recording-time on tape. 
+Simple (yes, really) written-in-bash tor for calculating total recording-/playback-time on (reel-to-reel or cassette) tape.
 
 ```
-Place a symlink somewhere useful, ex: ln -s ~/dev/tapelen/tapelen.sh /usr/local/bin/tapelen
+Move script to, or place a symlink somewhere useful, ex: ln -s ~/dev/tapelen/tapelen.sh /usr/local/bin/tapelen
+
 Usage: tapelen [length] [unit]
 
-Example:    $ tapelen 275 m 
-Or use feet:$ tapelen 900 ft
+Example:
+$ tapelen 275 m 
 
-will give the output:
+Or use feet:
+$ tapelen 900 ft
+
+Both will give the output:
 
     76.2cm ~ 30"    | 38.1cm ~ 15"    | 19.05cm ~ 7-1/2"
     9.52cm ~ 3-3/4" | 4.76cm ~ 1-7/8" | 2.381cm ~ 15/16"
 
-Recording-time for 275 m, or 899 ft (6.35mm or 1/2"-wide) audiotape:
+Recording-time for 275 m, or 899 ft (6.35mm or 1/4"-wide) audiotape:
 
 hh:mm:ss  @ speed  x * number of turns. Ex: stereo 4-track is 2x.
 
