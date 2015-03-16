@@ -1,5 +1,5 @@
 # tapelen
-Simple (yes, really) written-in-bash tool for calculating total recording-/playback-time on (reel-to-reel or cassette) tape.
+Simple (yes, really) written-in-bash tool for calculating total recording-/playback-time on (reel-to-reel or cassette) tape using different speeds.
 
 ```
 Move script to, or place a symlink somewhere useful:
