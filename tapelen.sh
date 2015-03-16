@@ -1,5 +1,5 @@
 #!/bin/bash
-#How many minutes recording-time using various tape-speeds.
+#Tool for calculating recording-/playback-time using various tape-speeds.
 #By akeda2
 
 #Operands: [tape-length] [feet/meters]
