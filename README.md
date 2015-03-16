@@ -1,8 +1,9 @@
 # tapelen
-Simple (yes, really) written-in-bash tor for calculating total recording-/playback-time on (reel-to-reel or cassette) tape.
+Simple (yes, really) written-in-bash tool for calculating total recording-/playback-time on (reel-to-reel or cassette) tape.
 
 ```
-Move script to, or place a symlink somewhere useful, ex: ln -s ~/dev/tapelen/tapelen.sh /usr/local/bin/tapelen
+Move script to, or place a symlink somewhere useful:
+$ ln -s ~/dev/tapelen/tapelen.sh /usr/local/bin/tapelen
 
 Usage: tapelen [length] [unit]
 
