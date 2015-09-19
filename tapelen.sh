@@ -50,6 +50,19 @@ function m2ft () {
 function ft2m () {
 	echo $(bc <<< "scale=0;($1/3.2727)/1")
 	}
+function showhelp () {
+	
+	printf "\nTapelen: Tool for calculating recording-/playback-time using various tape-speeds. By David Åkesson aka akeda 2015-\n"
+	printf "\n		Operands:	[tape-length] [feet/meters]\n"
+	printf "		Switches:	-? (this) help\n"
+	printf '		Syntax: 	tapelen(.sh) 300 meters (or feet) ($1 is length of tape. $2 is unit "m*" or "f*").\n'
+	printf "		Example: 	tapelen 275 m\n\n"
+}
+case $1 in
+	-?)
+		showhelp
+		;;
+esac
 case $2 in
 	m*)
 		speedsChart
