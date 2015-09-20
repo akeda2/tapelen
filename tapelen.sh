@@ -52,11 +52,12 @@ function ft2m () {
 	}
 function showhelp () {
 	
-	printf "\nTapelen: Tool for calculating recording-/playback-time using various tape-speeds. By David Åkesson aka akeda 2015-\n"
-	printf "\n		Operands:	[tape-length] [feet/meters]\n"
-	printf "		Switches:	-? (this) help\n"
-	printf '		Syntax: 	tapelen(.sh) 300 meters (or feet) ($1 is length of tape. $2 is unit "m*" or "f*").\n'
-	printf "		Example: 	tapelen 275 m\n\n"
+	printf "\nTapelen:\tTool for calculating recording-/playback-time using various tape-speeds.\n\t\tBy David Åkesson/akeda 2015-\n"
+	printf "\n\t\tOperands:\t[tape-length] [feet/meters]\n"
+	printf "\t\tSwitches:\t-? (this) help\n"
+	printf "\t\tSyntax:\t\ttapelen(.sh) 300 meters (or feet)\n"
+	printf '\t\t\t\t($1 is length of tape. $2 is unit "m*" or "f*").\n'
+	printf "\t\tExample: 	tapelen 275 m\n\n"
 }
 case $1 in
 	-?)
