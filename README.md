@@ -6,7 +6,7 @@ Move script to, or place a symlink somewhere useful:
 $ ln -s ~/dev/tapelen/tapelen.sh /usr/local/bin/tapelen
 
 Usage: tapelen [length] [unit]
-
+Help:  tapelen -?
 Example:
 $ tapelen 275 m 
 
